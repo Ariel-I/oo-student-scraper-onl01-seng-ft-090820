@@ -17,7 +17,7 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-    @@all.send()
+    @@all.send(:twitter=,)
   end
 
   def self.all
